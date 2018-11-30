@@ -2,7 +2,6 @@ package Tests;
 
 import BenutzerVerwaltung.Benutzer;
 import BenutzerVerwaltung.BenutzerVerwaltungAdmin;
-import BenutzerVerwaltung.Exceptions.BenutzerNullPointerException;
 import BenutzerVerwaltung.Exceptions.BenutzerVerwaltungException;
 import junit.framework.TestCase;
 import org.junit.jupiter.api.AfterEach;
