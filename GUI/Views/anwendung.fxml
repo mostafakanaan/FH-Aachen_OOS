@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="158.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.AnwendungsScene.AnwendungsController">
+<BorderPane prefHeight="158.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controllers.AnwendungsController">
    <center>
       <Label text="Sie können das System nun verwenden." BorderPane.alignment="CENTER">
          <font>
@@ -20,12 +20,12 @@
       <ButtonBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <buttons>
             <Region prefHeight="200.0" prefWidth="200.0" />
-            <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#loginPage" text="Login" textAlignment="CENTER">
+            <Button fx:id="logoutBtn" mnemonicParsing="false" onAction="#loginPage" text="Logout" textAlignment="CENTER">
                <effect>
                   <Blend />
                </effect>
             </Button>
-            <Button fx:id="abbrechenBtn" alignment="CENTER" cancelButton="true" mnemonicParsing="false" onAction="#abbrechen" text="Abbrechen" textAlignment="CENTER" />
+            <Button fx:id="beendenBtn" alignment="CENTER" cancelButton="true" mnemonicParsing="false" onAction="#beenden" text="Beenden" textAlignment="CENTER" />
             <Region prefHeight="200.0" prefWidth="200.0" />
          </buttons>
       </ButtonBar>
